@@ -1,0 +1,101 @@
+body {
+    margin: 0em;
+    color: black;
+  }
+  
+  .cover {
+    height: 400px;
+    background-image: url(https://i.pinimg.com/originals/cb/a7/d0/cba7d0274e75b5fd2fed2ad9ffb742c8.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .imagen2 {
+    height: 400px;
+    margin-bottom: 25px;
+    background-image: url(https://pbs.twimg.com/media/FIvnjW3UUAAYv-R?format=jpg&name=4096x4096);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .imagen4 {
+    height: 400px;
+    margin-bottom: 25px;
+    background-image: url(https://madisonmovie.files.wordpress.com/2015/09/moonrise-kingdom-lighthouse.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    -webkit-animation: cambio 20s infinite alternate linear;
+            animation: cambio 20s infinite alternate linear;
+  }
+  .slider li {
+    width: 100%;
+    list-style: none;
+  }
+  .slider img {
+    width: 100%;
+  }
+  
+  @-webkit-keyframes cambio {
+    0% {
+      margin-left: 0;
+    }
+    20% {
+      margin-left: 0;
+    }
+    25% {
+      margin-left: -100%;
+    }
+    45% {
+      margin-left: -100%;
+    }
+    50% {
+      margin-left: -200%;
+    }
+    70% {
+      margin-left: -200%;
+    }
+    75% {
+      margin-left: -300%;
+    }
+    100% {
+      margin-left: -300%;
+    }
+  }
+  
+  @keyframes cambio {
+    0% {
+      margin-left: 0;
+    }
+    20% {
+      margin-left: 0;
+    }
+    25% {
+      margin-left: -100%;
+    }
+    45% {
+      margin-left: -100%;
+    }
+    50% {
+      margin-left: -200%;
+    }
+    70% {
+      margin-left: -200%;
+    }
+    75% {
+      margin-left: -300%;
+    }
+    100% {
+      margin-left: -300%;
+    }
+  }/*# sourceMappingURL=style.css.map */
